@@ -29,6 +29,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { numberWithCommas } from "../utils/GeneralFunctions";
 import Pagination from "./Pagination";
+import Aurora from "./Aurora";
 
 export default function CoinsTable() {
   const router = useRouter();
@@ -83,6 +84,12 @@ export default function CoinsTable() {
         h="73rem"
         style={{ fontFamily: "'Inter', sans-serif" }}
       >
+        {/* <Aurora
+          colorStops={["#3A29FF", "#FF94B4", "#FF3232"]}
+          blend={0.5}
+          amplitude={1.0}
+          speed={0.5}
+        /> */}
         <Center>
           <VStack spacing="1.5rem">
             <Text color="white" mt="1rem" fontSize="3xl">

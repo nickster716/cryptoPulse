@@ -10,8 +10,7 @@ export default function Footer() {
     >
       <Center>
         <Text color="#EFBD1D" fontSize="lg">
-          Made with <i className="bi bi-heart-fill text-red-600"></i> by
-          Shreedhar
+          Made with <i className="bi bi-heart-fill text-red-600"></i> by Nikhil
         </Text>
       </Center>
     </Box>

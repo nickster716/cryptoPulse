@@ -1,5 +1,6 @@
 import { Box, Heading, Center, VStack, Text } from "@chakra-ui/react";
 import Carousel from "./Carousel";
+import ShinyText from "./ShinyText";
 
 export default function Banner() {
   return (
@@ -14,11 +15,17 @@ export default function Banner() {
       >
         <Center>
           <VStack spacing="2rem">
-            <Heading color="white" mt="1rem" size="4xl">
-              Crypto-Fetcher
-            </Heading>
+            <ShinyText
+              text="Crypto Pulse"
+              disabled={false}
+              speed={3}
+              className="text-white mt-4 text-6xl"
+            />
+            {/* <Heading color="white" mt="1rem" size="4xl">
+              Crypto Pulse
+            </Heading> */}
             <Text color="white" mt="1rem" fontSize="lg">
-              Get Info Regarding Your Favorite Crypto Currency
+              Your Trusted Source for Cryptocurrency Information and Analysis{" "}
             </Text>
             <Box w={{ sm: "40rem", md: "80rem" }} mt="1rem">
               <Carousel />

@@ -29,7 +29,7 @@ export default function Navbar() {
           cursor="pointer"
           onClick={() => router.push("/")}
         >
-          Crypto-Fetcher
+          Crypto Pulse
         </Heading>
       </Box>
       <Spacer />
